@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#7b7b7b;
+}
+.container{ /*centralizando o conteúdo da página via container*/
+    max-width: 1000px;
+    margin:auto;
+}
+
+header{ /*editando header*/
+    background-color:#e47911;
+    text-align: center;
+    color: #111111; /*cor da letra*/
+    padding: 10px; /*espaço entre as bordas da tela*/
+}
+.title{
+    font-size: 26px;
+}
+
+section{ /*imagem de fundo*/
+    padding: 20px;
+    background-image:url('../awsB-555x300.webp');
+    background-size: cover;
+    overflow: hidden;
+}
+.formContainer{ /*editando tamanho do container "formulário"*/
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding:20px;
+    float:right;/*faz o objeto colar na direita*/
+}
+
+h2{
+    font-size: 16px;
+}
+.mb{/*margem do formlulário para que obtenha distância do header*/
+    margin-bottom: 15px;
+}
+
+input, select{ /*editando imput e select*/
+    width:100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border:none;
+    margin-bottom: 10px;
+}
+input[type="submit"]{/*alterando botão inscrever-se*/
+    color:white;
+    background-color: #e47911;
+    font-weight: bold;
+}
+
+footer{
+    padding:40px;
+    text-align: center;
+    background-color: transparent;
+}
+.picture{
+    width:160px;
+}
+
+.description{
+
+    display: inline-block;
+    text-align: left;
+    color: black;
+    max-width: 40%;
+    margin-left:40px;
+}
+.description p,  .description h3{
+    margin-bottom: 20px;
+
+
+}
